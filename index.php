@@ -262,8 +262,8 @@ include "koneksi.php";
             width="300" />
         </div>
         <div class="p-md-5 text-sm-start">
-          <h3 class="lead">A11.2023.12345</h3>
-          <h1 class="fw-bold">Aprilyani Nur Safitri</h1>
+          <h3 class="lead">A11.2023.15115</h3>
+          <h1 class="fw-bold">Faiq Akmal Nur Ihya</h1>
           Program Studi Teknik Informatika<br />
           <a href="https://dinus.ac.id/" class="fw-bold text-decoration-none">Universitas Dian Nuswantoro</a>
         </div>
@@ -276,9 +276,9 @@ include "koneksi.php";
     <div>
       <a href="https://www.instagram.com/udinusofficial"><i class="bi bi-instagram h2 p-2"></i></a>
       <a href="https://twitter.com/udinusofficial"><i class="bi bi-twitter h2 p-2"></i></a>
-      <a href="https://wa.me/+62812685577"><i class="bi bi-whatsapp h2 p-2"></i></a>
+      <a href="https://wa.me/+6281359373336"><i class="bi bi-whatsapp h2 p-2"></i></a>
     </div>
-    <div>Aprilyani Nur Safitri &copy; 2023</div>
+    <div>Faiq Akmal Nur Ihya &copy; 2024</div>
   </footer>
   <!-- footer end -->
 
