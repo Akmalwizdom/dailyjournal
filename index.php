@@ -18,7 +18,7 @@ include "koneksi.php";
     rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -79,7 +79,7 @@ include "koneksi.php";
   <section id="hero" class="text-center p-5 bg-danger-subtle text-sm-start">
     <div class="container">
       <div class="d-sm-flex flex-sm-row-reverse align-items-center">
-        <img src="img/banner.jpg" class="img-fluid" width="300" />
+        <img src="img/Hero_img.jpg" class="img-fluid" width="300" />
         <div>
           <h1 class="fw-bold display-4">
             Create Memories, Save Memories, Everyday
@@ -137,16 +137,19 @@ include "koneksi.php";
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/gal1.jpg" class="d-block w-100" alt="..." />
+            <img src="img/Galeri1.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/gal2.jpg" class="d-block w-100" alt="..." />
+            <img src="img/Galeri2.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/gal4.jpg" class="d-block w-100" alt="..." />
+            <img src="img/Galeri3.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/gal5.jpg" class="d-block w-100" alt="..." />
+            <img src="img/Galeri4.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Galeri5.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -179,10 +182,8 @@ include "koneksi.php";
             <div class="card-header bg-danger text-white">SENIN</div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Etika Profesi<br />16.20-18.00 | H.4.4
-              </li>
-              <li class="list-group-item">
-                Sistem Operasi<br />18.30-21.00 | H.4.8
+                Logika Informatika <br />
+                07.00-09.30 | H.4.10
               </li>
             </ul>
           </div>
@@ -192,13 +193,12 @@ include "koneksi.php";
             <div class="card-header bg-danger text-white">SELASA</div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Pendidikan Kewarganegaraan<br />12.30-13.10 | Kulino
+                Pendidikan Kewarganegaraan <br />
+                08.40-10.20 | AULA H7
               </li>
               <li class="list-group-item">
-                Probabilitas dan Statistik<br />15.30-18.00 | H.4.9
-              </li>
-              <li class="list-group-item">
-                Kecerdasan Buatan<br />18.30-21.00 | H.4.11
+                Basis Data <br />
+                12.30-14.10 | H.5.14
               </li>
             </ul>
           </div>
@@ -208,7 +208,12 @@ include "koneksi.php";
             <div class="card-header bg-danger text-white">RABU</div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Manajemen Proyek Teknologi Informasi<br />15.30-18.00 | H.4.6
+                Rekaya Perangkat Lunak <br />
+                07.00-09.30 | H.5.14
+              </li>
+              <li class="list-group-item">
+                Sistem Informasi <br />
+                12.30-15.00 | H.5.10
               </li>
             </ul>
           </div>
@@ -218,13 +223,12 @@ include "koneksi.php";
             <div class="card-header bg-danger text-white">KAMIS</div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Bahasa Indonesia<br />12.30-14.10 | Kulino
+                Pemrograman Berbasis Web <br />
+                08.40-10.20 | D.2.J
               </li>
               <li class="list-group-item">
-                Pendidikan Agama Islam<br />16.20-18.00 | Kulino
-              </li>
-              <li class="list-group-item">
-                Penambangan Data<br />18.30-21.00 | H.4.9
+                Basis Data <br />
+                16.20-18.00 | D.3.M
               </li>
             </ul>
           </div>
@@ -234,7 +238,12 @@ include "koneksi.php";
             <div class="card-header bg-danger text-white">JUMAT</div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                Pemrograman Web Lanjut<br />10.20-12.00 | D.2.K
+                Sistem Informasi <br />
+                09.30-12.00 | H.4.9
+              </li>
+              <li class="list-group-item">
+                Probabilitas dan Statistik <br />
+                15.30-18.00 | H.4.8
               </li>
             </ul>
           </div>
@@ -257,7 +266,7 @@ include "koneksi.php";
       <div class="d-sm-flex align-items-center justify-content-center">
         <div class="p-3">
           <img
-            src="img/profil.png"
+            src="img/Profil.png"
             class="rounded-circle border shadow"
             width="300" />
         </div>
