@@ -84,7 +84,7 @@ if (!isset($_SESSION['username'])) {
   </section>
   <!-- content end -->
   <!-- footer begin -->
-  <footer class="text-center p-5 bg-danger-subtle footer">
+  <footer class="text-center p-5 bg-danger-subtle footer fixed-bottom">
     <div>
       <a href="https://www.instagram.com/udinusofficial"><i class="bi bi-instagram h2 p-2 text-dark"></i></a>
       <a href="https://twitter.com/udinusofficial"><i class="bi bi-twitter h2 p-2 text-dark"></i></a>
