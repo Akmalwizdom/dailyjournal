@@ -136,21 +136,21 @@ include "koneksi.php";
       <h1 class="fw-bold display-4 pb-3">gallery</h1>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/Galeri1.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Galeri2.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Galeri3.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Galeri4.jpg" class="d-block w-100" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Galeri5.jpg" class="d-block w-100" alt="..." />
-          </div>
+          <?php
+          $sql = "SELECT * FROM gallery ORDER BY id_img DESC";
+          $hasil = $conn->query($sql);
+          $isActive = true;
+
+          while ($row = $hasil->fetch_assoc()) {
+          ?>
+            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+              <img src="img/<?= $row["gambar"] ?>" class="d-block w-100" alt="..." />
+            </div>
+          <?php
+            $isActive = false;
+          }
+          ?>
+
         </div>
         <button
           class="carousel-control-prev"
